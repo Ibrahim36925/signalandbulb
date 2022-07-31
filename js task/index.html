@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <h1>K-Electric Bulb</h1>
+    <img id="bulb" src="img/off.gif" alt="">
+    <br>
+    <button onclick="on()">ON</button>
+    <button onclick="off()">OFF</button>
+ <h1>Traffic Signal</h1>
+<div class="traffic-signal">
+      <div class="circle" id="red" onmouseover="Red()" onmouseout="white()">
+      </div>
+      <div class="circle" id="yellow" onmouseover="Yellow()" onmouseout="white()">
+      </div>
+      <div class="circle" id="green" onmouseover="Green()" onmouseout="white()">
+      </div>
+    </div>
+  </div>
+  <p class="stop">Stop</p>
+ <p class="ready">Get Ready</p>
+ <p class="go">Lets Go</p>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
